@@ -10,7 +10,7 @@ from instabot import Bot
 posted_pic_list = []
 try:
 	with open('pics.txt', 'r') as f:
-    	posted_pic_list = f.read().splitlines()
+    		posted_pic_list = f.read().splitlines()
 except:
 	print("Please create pics.txt")
 	sys.exit()
